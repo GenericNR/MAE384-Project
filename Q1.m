@@ -52,6 +52,12 @@ for k = 1:size(parameters, 1)
         I(t+1) = I_t + (k1_I + 2*k2_I + 2*k3_I + k4_I) / 6;
         R(t+1) = R_t + (k1_R + 2*k2_R + 2*k3_R + k4_R) / 6;
     end
+    
+% This was added by Ryan. This makes it so that Q4.m can run this script
+% without also importing/displaying any plots/figures.
+if Q4_flag == 1
+    return
+end
 
     % Plot results
     figure;
