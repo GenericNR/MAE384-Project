@@ -1,3 +1,8 @@
+% Dummy Variable. Added by Ryan.
+% Sets up a flag that allows Q4.m to end this script before the plots are
+% made.
+Q4_flag = 0;
+
 % Parameters
 T = 100; % Total simulation time (days)
 h = 1; % Time step (days)
