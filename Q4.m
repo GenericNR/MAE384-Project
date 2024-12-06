@@ -12,7 +12,7 @@ T = 30;                         % Total simulation time (days)
 h = 0.1;                        % Time step (days)
 t_vec = linspace(0,30,30/h+1);  % Time vector for easier plotting
 
-B = @(t) B0*(1 + sin(w*t));     % Transmission rate variation
+B = @(t) B0*(1 + A*sin(w*t));     % Transmission rate variation
 gamma = 0.1;                    % New gamma value
 
 % SIR model with β(t)
@@ -67,7 +67,7 @@ title('Infection Spectrum for Periodic Variation');
 
 % Edited parameters
 w = (2*pi*100) / 365;           % Angular frequency
-B = @(t) B0*(1 + sin(w*t));     % Transmission rate variation
+B = @(t) B0*(1 + A*sin(w*t));     % Transmission rate variation
 
 % RK4 method
     for t = 1:300
