@@ -10,6 +10,6 @@ Question 1: Jaxen White
 
 Question 2:
 
-Question 3:
+Question 3: Kyle Swirski
 
 Question 4: Ryan Smith
