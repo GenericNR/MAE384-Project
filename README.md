@@ -1,7 +1,7 @@
 # MAE384-Project
 This is a group project done in MATLAB for MAE 384.
 
-We are the creatively names "Team Placeholder"
+We are the creatively named "Team Placeholder"
 
 The guidelines for the project are in Project.pdf
 
