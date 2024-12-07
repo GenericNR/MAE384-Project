@@ -12,3 +12,5 @@ Question 2: Cyal Sam
 Question 3: Kyle Swirski
 
 Question 4: Ryan Smith
+
+All of our combined work is in the Complete_Project PDF and MLX files.
