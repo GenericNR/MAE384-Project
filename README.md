@@ -8,7 +8,7 @@ NOTE TO TEAM: for consistency's sake, use Q# for your script, and CompleteQuesti
 
 Question 1: Jaxen White
 
-Question 2:
+Question 2: Cyal Sam
 
 Question 3: Kyle Swirski
 
